@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y libcurl4-openssl-dev && docker-php-ext-
 EXPOSE 5000
 
 # Command untuk menjalankan PHP web server
-CMD ["php", "-S", "0.0.0.0:5000", "-t", "index.php"]
+CMD ["php", "-S", "0.0.0.0:5000", "-t"]
