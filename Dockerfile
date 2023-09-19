@@ -2,6 +2,7 @@
 FROM php:8-apache
 
 # Aktifkan ekstensi PHP yang diperlukan
+RUN apt-get update && apt-get install -y libcurl4-openssl-dev && docker-php-ext-install curl
 RUN docker-php-ext-install 7z curl zip xml
 
 # Expose port 5000 untuk web server
