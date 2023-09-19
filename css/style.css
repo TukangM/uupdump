@@ -1,0 +1,126 @@
+/*
+Copyright 2020 whatever127
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+.page-header {
+    position: relative;
+    background-image: url('/img/bg_light.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #f3f9fb;
+    padding: 0.75em;
+    margin-bottom: 1.2rem;
+}
+
+.page-header .title {
+    padding-top: 0.3em;
+    padding-bottom: 1em;
+}
+
+.page-header .title .logo {
+    height: 36px;
+    margin: -0.2em 0.25em -0.25em 0.25em
+}
+
+.page-header .title h1 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.page-header .version {
+    display: inline;
+    position: relative;
+    bottom: 1em;
+    font-size: 9pt;
+    opacity: 0.5;
+    line-height: 1rem;
+}
+
+.page-header-menu {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100%;
+}
+
+.page-header .shadow {
+    position: absolute;
+    pointer-events: none;
+    left: -16px;
+    right: -16px;
+    height: 48px;
+    bottom: -48px;
+    box-shadow: inset 0 22px 50px -50px #000;
+    border-top: 1px solid #ccc;
+}
+
+.page-header .ui.attached.menu {
+    border: 0;
+}
+
+.pagination-text {
+    margin-top: 1.4em;
+    margin-bottom: 1.3em;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.footer .info {
+    opacity: 0.5;
+}
+
+.welcome-text {
+    margin: 2em;
+    text-align: center;
+}
+
+.welcome-text .header {
+    font-size: 30pt;
+    margin: 0;
+}
+
+.welcome-text .sub {
+    font-size: 12pt;
+    opacity: 0.5;
+}
+
+.light-mode-btn {
+    display: none !important;
+}
+
+.quick-search-buttons {
+    text-align: center;
+    margin-top: .5em;
+    line-height: 250%;
+}
+
+@media only screen and (min-width: 1392px) {
+    .ui.container {
+        width: 1308px;
+    }
+}
+
+@media only screen and (min-width: 1568px) {
+    .ui.container {
+        width: 1474px;
+    }
+}
